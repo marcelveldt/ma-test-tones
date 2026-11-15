@@ -1,7 +1,7 @@
 [project]
-name = "community-provider-template"
+name = "ma-test-tones"
 version = "0.0.0"
-description = "A community provider for Music Assistant"
+description = "Test tones for Music Assistant: check your speakers, their channels and their volume"
 license = "Apache-2.0"
 requires-python = ">=3.14"
 dependencies = []
