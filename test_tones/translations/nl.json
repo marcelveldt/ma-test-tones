@@ -1,0 +1,6 @@
+{
+  "manifest": {
+    "name": "Testtonen",
+    "description": "Testtonen om je speakers te controleren: links en rechts, lage en hoge tonen, een frequentiesweep en roze ruis."
+  }
+}

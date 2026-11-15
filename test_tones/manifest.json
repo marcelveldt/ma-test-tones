@@ -1,10 +1,11 @@
 {
   "type": "music",
   "domain": "test_tones",
-  "name": "Example music",
-  "description": "A few test tones to play, to show how a music source works.",
-  "codeowners": ["@your-github-handle"],
+  "stage": "beta",
+  "name": "Test Tones",
+  "description": "Test tones to check your speakers: left and right, low and high tones, a sweep and pink noise.",
+  "codeowners": ["@marcelveldt"],
   "requirements": [],
-  "documentation": "https://github.com/your-github-handle/your-repository#readme",
+  "documentation": "https://github.com/marcelveldt/ma-test-tones#readme",
   "multi_instance": false
 }
