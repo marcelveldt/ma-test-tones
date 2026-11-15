@@ -37,8 +37,8 @@ hearing the sweep well before 20 kHz; that is normal.
 Test Tones comes from the community catalog of Music Assistant. Everything in the community
 catalog is used at your own risk.
 
-1. Open the Marketplace in Music Assistant. An administrator switches on the community catalog
-   there once.
+1. Open the Marketplace in Music Assistant. An administrator enables the community catalog there
+   once.
 2. Find Test Tones in it and add it.
 3. The albums Speaker check and Tones and noise show up in your library. Play a track on the
    speaker you want to check.
