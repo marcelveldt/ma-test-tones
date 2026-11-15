@@ -3,5 +3,5 @@
 from pathlib import Path
 
 # the domain of the provider, which names its folder; scripts/rename.py changes it
-DOMAIN = "example_music"
+DOMAIN = "test_tones"
 REPOSITORY = Path(__file__).parents[1]

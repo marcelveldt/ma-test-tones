@@ -45,5 +45,5 @@ jobs:
     name: Catalog checks
     uses: music-assistant/community-catalog/.github/workflows/check-provider.yml@main
     with:
-      folder: example_music
+      folder: test_tones
       server-line: nightly
