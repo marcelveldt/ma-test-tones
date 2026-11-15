@@ -50,17 +50,23 @@ This repository started from the
 whose README explains the development container, the rules of the community catalog and how a
 release reaches users. The provider is in `test_tones/`.
 
-With [uv](https://docs.astral.sh/uv/), run the tests, the lint and the type check:
+With [uv](https://docs.astral.sh/uv/), run the tests, the lint, the type check and the spelling
+check:
 
     uv sync
     uv run pytest
     uv run ruff check .
     uv run ruff format --check .
     uv run mypy
+    uv run codespell
 
 The tests start a real Music Assistant server with the provider, play every track and check its
-length, its channels, its level and its pitch. `scripts/run.sh` starts a server in dev mode with
-the provider, to try it in the app at <http://localhost:8095>.
+length, its channels, its level and its pitch. The server comes with the fixture that starts it:
+`pytest_plugins = ["music_assistant.testing"]` in `tests/conftest.py` gives a fixture `mass`, a
+started server in dev mode with this repository as its local provider folder.
+
+`scripts/run.sh` starts a server in dev mode with the provider, to try it in the app at
+<http://localhost:8095>.
 
 ## Licence
 
